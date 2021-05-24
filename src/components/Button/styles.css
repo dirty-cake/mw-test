@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  border: 2px solid #726df8;
+  box-sizing: border-box;
+  border-radius: 35px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 70px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #726df8;
+  color: white;
+}
+
+.button:disabled {
+  background: #DCE4F7;
+  border: 2px solid #DCE4F7;
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.1);
+  touch-action: none;
+  pointer-events: none;
+  color: #a5acbe;
+}

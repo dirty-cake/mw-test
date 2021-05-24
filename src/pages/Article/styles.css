@@ -1,0 +1,43 @@
+.article-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+  line-height: 23px;
+}
+
+.article-content > * {
+  margin-bottom: 15px;
+}
+
+.article-back-button {
+  text-align: right;
+  color: #726df8;
+  font-size: 18px;
+}
+
+.article-title {
+  color: #726df8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.article-description {
+  color: #8683ec;
+  font-weight: 500;
+}
+
+.article-text {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.article-img {
+  width: 900px;
+}
+
+.article-source {
+  color: #726df8;
+  cursor: pointer;
+  font-size: 16px;
+}

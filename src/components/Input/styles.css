@@ -1,0 +1,36 @@
+.input {
+  border: 1px solid #DCE4F7;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 12px 20px 12px 11px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 165%;
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 12px;
+  line-height: 165%;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(11, 39, 68, 0.4);
+}
+
+.input:disabled {
+  background: #F3F5F9;
+}
+
+.input-label {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #0B2744;
+  margin: 0 0 4px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
